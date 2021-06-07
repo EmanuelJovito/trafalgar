@@ -8,6 +8,11 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   html {
+    width: 100%;
+    height: 100%;
+  }
+
+  html {
     @media (max-width: 1080px) {
       font-size: 93.75%;
     }
@@ -18,7 +23,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: white;
+    background: #E5E5E5;
     -webkit-font-smoothing: antialiased;
   }
 
