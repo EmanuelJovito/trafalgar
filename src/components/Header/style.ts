@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.header`
   width: 100%;
-  height: 5rem;
+  height: 7rem;
 
   display: flex;
   flex-direction: row;
@@ -24,9 +24,11 @@ export const Container = styled.header`
       li {
         :first-child {
           font-weight: 700;
+          color: #1F1534;
         }
 
         margin-right: 2rem;
+        color: gray;
       }
     }
   }
