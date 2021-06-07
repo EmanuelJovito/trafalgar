@@ -28,7 +28,7 @@ export const Container = styled.header`
         }
 
         margin-right: 2rem;
-        color: gray;
+        color: rgba(125, 121, 135, 1);
       }
     }
   }
