@@ -11,7 +11,7 @@ export function Header() {
           <li><a>Find a doctor</a></li>
           <li><a>Apps</a></li>
           <li><a>Testimonials</a></li>
-          <li><a>Testimonials</a></li>
+          <li><a>About us</a></li>
         </ul>
       </nav>
     </Container>
