@@ -52,9 +52,13 @@ export const Content = styled.div`
         margin-bottom: 1rem;
       }
 
-      a {
+      p {
         color: rgba(255, 255, 255, 1);
         margin-bottom: 1.5rem;
+
+        :hover {
+          color: rgba(255, 255, 255, 0.5);
+        }
       }
     }
 
@@ -67,9 +71,13 @@ export const Content = styled.div`
         margin-bottom: 1rem;
       }
 
-      a {
+      p {
         color: rgba(255, 255, 255, 1);
         margin-bottom: 1.5rem;
+
+        :hover {
+          color: rgba(255, 255, 255, 0.5);
+        }
       }
     }
 
@@ -82,9 +90,13 @@ export const Content = styled.div`
         margin-bottom: 1rem;
       }
 
-      a {
+      p {
         color: rgba(255, 255, 255, 1);
         margin-bottom: 1.5rem;
+
+        :hover {
+          color: rgba(255, 255, 255, 0.5);
+        }
       }
     }
   }

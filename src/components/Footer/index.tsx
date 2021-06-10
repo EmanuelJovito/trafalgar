@@ -13,24 +13,24 @@ export function Footer() {
         </div>
         <div className='company'>
           <h1>Company</h1>
-          <a>About</a>
-          <a>Testimonials</a>
-          <a>Find a doctor</a>
-          <a>Apps</a>
+          <p>About</p>
+          <p>Testimonials</p>
+          <p>Find a doctor</p>
+          <p>Apps</p>
         </div>
         <div className='region'>
           <h1>Region</h1>
-          <a>Indonesia</a>
-          <a>Singapore</a>
-          <a>Hongkong</a>
-          <a>Canada</a>
+          <p>Indonesia</p>
+          <p>Singapore</p>
+          <p>Hongkong</p>
+          <p>Canada</p>
         </div>
         <div className='help'>
           <h1>Help</h1>
-          <a>Help center</a>
-          <a>Contact support</a>
-          <a>Instructions</a>
-          <a>How it works</a>
+          <p>Help center</p>
+          <p>Contact support</p>
+          <p>Instructions</p>
+          <p>How it works</p>
         </div>
       </div>
     </Content>
