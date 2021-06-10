@@ -29,6 +29,10 @@ export const Container = styled.header`
 
         margin-right: 2rem;
         color: rgba(125, 121, 135, 1);
+
+        :hover {
+          color: rgba(125, 121, 135, 0.5);
+        }
       }
     }
   }
