@@ -39,63 +39,67 @@ export const Content = styled.div`
 
       p {
         color: rgba(255, 255, 255, 1);
-
       }
     }
-
-    .company {
+    
+    .options {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
 
-      h1 {
-        color: rgba(255, 255, 255, 1);
-        margin-bottom: 1rem;
-      }
+      .company {
+        display: flex;
+        flex-direction: column;
 
-      p {
-        color: rgba(255, 255, 255, 1);
-        margin-bottom: 1.5rem;
+        h1 {
+          color: rgba(255, 255, 255, 1);
+          margin-bottom: 1rem;
+        }
 
-        :hover {
-          color: rgba(255, 255, 255, 0.5);
+        p {
+          color: rgba(255, 255, 255, 1);
+          margin-bottom: 1.5rem;
+
+          :hover {
+            color: rgba(255, 255, 255, 0.5);
+          }
         }
       }
-    }
 
-    .region {
-      display: flex;
-      flex-direction: column;
+      .region {
+        display: flex;
+        flex-direction: column;
 
-      h1 {
-        color: rgba(255, 255, 255, 1);
-        margin-bottom: 1rem;
-      }
+        h1 {
+          color: rgba(255, 255, 255, 1);
+          margin-bottom: 1rem;
+        }
 
-      p {
-        color: rgba(255, 255, 255, 1);
-        margin-bottom: 1.5rem;
+        p {
+          color: rgba(255, 255, 255, 1);
+          margin-bottom: 1.5rem;
 
-        :hover {
-          color: rgba(255, 255, 255, 0.5);
+          :hover {
+            color: rgba(255, 255, 255, 0.5);
+          }
         }
       }
-    }
 
-    .help {
-      display: flex;
-      flex-direction: column;
+      .help {
+        display: flex;
+        flex-direction: column;
 
-      h1 {
-        color: rgba(255, 255, 255, 1);
-        margin-bottom: 1rem;
-      }
+        h1 {
+          color: rgba(255, 255, 255, 1);
+          margin-bottom: 1rem;
+        }
 
-      p {
-        color: rgba(255, 255, 255, 1);
-        margin-bottom: 1.5rem;
+        p {
+          color: rgba(255, 255, 255, 1);
+          margin-bottom: 1.5rem;
 
-        :hover {
-          color: rgba(255, 255, 255, 0.5);
+          :hover {
+            color: rgba(255, 255, 255, 0.5);
+          }
         }
       }
     }
@@ -105,5 +109,80 @@ export const Content = styled.div`
     position: absolute;
     left: 0;
     bottom: 0;
+    opacity: 60%;
+  }
+
+  @media (max-width: 1024px) {
+    height: 100%;
+
+    & > div {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+
+      .info {
+        width: 35rem;
+
+        align-items: center;
+        text-align: center;
+
+        p {
+          margin-bottom: 2rem;
+        }
+      }
+
+      .options {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        align-items: center;
+
+        .company {
+          align-items: center;
+
+          h1 {
+            font-size: 1.5rem;
+          }
+
+          margin-right: 8rem;
+        }
+
+        .region {
+          align-items: center;
+
+          h1 {
+            font-size: 1.5rem;
+          }
+
+          margin-right: 8rem;
+        }
+
+        .help {
+          align-items: center;
+          text-align: center;
+
+          h1 {
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 500px) {
+    & > div {
+      .info {
+        width: 25rem;
+      }
+
+      .options {
+        .company {
+          margin-right: 3rem;
+        }
+
+        .region {
+          margin-right: 3rem;
+        }
+      }
+    }
   }
 `
