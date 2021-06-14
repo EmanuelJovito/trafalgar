@@ -12,10 +12,10 @@ export const Button = styled.button`
   border: none;
   border-radius: 5px;
 
-  @media (max-width: 375px) {
+  @media (max-width: 425px) {
     width: 2rem;
     height: 2rem;
 
-    bottom: -11rem;
+    bottom: -11.5rem;
   }
 `
