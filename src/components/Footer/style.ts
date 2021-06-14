@@ -50,6 +50,8 @@ export const Content = styled.div`
         display: flex;
         flex-direction: column;
 
+        margin-right: 4rem;
+
         h1 {
           color: rgba(255, 255, 255, 1);
           margin-bottom: 1rem;
@@ -68,6 +70,8 @@ export const Content = styled.div`
       .region {
         display: flex;
         flex-direction: column;
+
+        margin-right: 4rem;
 
         h1 {
           color: rgba(255, 255, 255, 1);
@@ -171,7 +175,7 @@ export const Content = styled.div`
   @media (max-width: 500px) {
     & > div {
       .info {
-        width: 25rem;
+        width: 25rem\;
       }
 
       .options {
