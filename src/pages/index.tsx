@@ -9,6 +9,8 @@ export default function Home() {
     <Conteiner>
       <Header />
 
+      <img src="background.svg" alt="background" />
+
       <Content>
         <div>
           <h1>Virtual healthcare for you</h1>
@@ -58,7 +60,6 @@ export default function Home() {
           <h1>Tracking</h1>
           <p>Track and save your medical history and health data </p>
         </div>
-
       </Grid>
 
       <Button>

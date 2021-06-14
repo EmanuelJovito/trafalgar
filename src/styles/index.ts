@@ -8,6 +8,13 @@ export const Conteiner = styled.div`
   flex-direction: column;
 
   align-items: center;
+
+  & > img {
+    position: absolute;
+    top: 6rem;
+    left: -3rem;
+    opacity: 75%;
+  } 
 `
 
 export const Content = styled.div`
@@ -59,6 +66,46 @@ export const Content = styled.div`
 
   img {
     width: 35rem;
+  }
+
+  @media (max-width: 1024px) {
+    div {
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    } 
+
+    img {
+      width: 25rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column-reverse;
+
+    div {
+      width: 100%;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      text-align: center;
+
+      h1 {
+        margin-top: 3rem;
+      }
+    }
+  }
+
+  @media (max-width: 375px) {
+    img {
+      width: 20rem;
+    }
   }
 `
 
@@ -118,6 +165,14 @@ export const Grid = styled.div`
       margin-top: 1rem;
       line-height: 28px;
     }
+  }
+
+  @media (max-width: 1024px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
   }
 `
 
@@ -191,12 +246,61 @@ export const Leading = styled.div`
   img {
     width: 35rem;
   }
+
+  @media (max-width: 1024px) {
+    div {
+      width: 20rem;
+      
+      margin-left: 2rem;
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    img {
+      width: 25rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      margin-left: 0;
+
+
+      text-align: center;
+
+      h1 {
+        margin-top: 3rem;
+
+        ::after {
+          left: 8.5rem;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 375px) {
+    img {
+      width: 20rem;
+    }
+  }
 `
 
 export const Download = styled.div`
   width: 71%;
 
-  margin-top: 10rem;
+  margin-top: 15rem;
 
   display: flex;
   align-items: center;
@@ -230,6 +334,45 @@ export const Download = styled.div`
 
     p {
       margin-top: 1.5rem;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    & > img {
+      width: 25rem;
+    }
+
+    div {
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column-reverse;
+    margin-top: 8rem;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      text-align: center;
+
+      h1 {
+        margin-top: 3rem;
+
+        ::after {
+          left: 8.5rem;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 375px) {
+    & > img {
+      width: 20rem;
     }
   }
 `
@@ -312,5 +455,15 @@ export const GridImages = styled.div`
         }
       }
     }
+  }
+
+  @media (max-width: 1024px) {
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 2rem;
+    align-self: center;
+  }
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
   }
 `
