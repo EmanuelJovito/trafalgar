@@ -35,7 +35,6 @@ export const SliderContainer = styled.div`
         right: 0;
       }
     }
-
   }
 
   & > div {
@@ -75,6 +74,96 @@ export const SliderContainer = styled.div`
       color: rgba(255, 255, 255, 0.9);
       font-size: 1.1rem;
       line-height: 30px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    width: 60rem;
+  }
+
+  @media (max-width: 902px) {
+    width: 85%;
+
+    & > div {
+      .Profile {
+        width: 45rem;
+
+        h1 {
+          font-size: 1.1rem;
+        }
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    & > div {
+      margin-top: 2rem;
+      flex-direction: column;
+      text-align: center;
+
+      img {
+        width: 5rem;
+        margin-bottom: 1rem;
+      }
+
+      .Profile {
+        width: 100%;
+        margin-left: 0;
+
+        align-items: center;
+      }
+
+      p {
+        margin-top: 0.5rem;
+      }
+    }
+  }
+
+  @media (max-width: 563px) {
+    & > h1 {
+      font-size: 1.5rem;
+
+      &:first-child {
+        &::after {
+          left: 8.9rem;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 418px) {
+    & > h1 {
+      padding: 1rem;
+      &:first-child {
+        &::after {
+          left: 9.9rem;
+        }
+      }
+    }
+
+    & > div {
+      margin-top: 1rem;
+    }
+  }
+
+  @media (max-width: 375px) {
+    & > h1 {
+      text-align: center;
+      &:first-child{
+        &::after {
+        left: 9.3rem;
+      }
+      }
+    }
+
+    & > div {
+      img {
+        display: none;
+      }
     }
   }
 `
