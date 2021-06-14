@@ -398,6 +398,12 @@ export const GridTitle = styled.div`
 
     background: #000;
   }
+
+  @media (max-width: 416px) {
+    h1 {
+      font-size: 1.9rem;
+    }
+  }
 `
 
 export const GridImages = styled.div`
