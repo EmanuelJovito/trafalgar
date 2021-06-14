@@ -15,6 +15,12 @@ export const Conteiner = styled.div`
     left: -3rem;
     opacity: 75%;
   } 
+
+  @media (max-width: 547px) {
+    & > img {
+      width:6rem;
+    }
+  }
 `
 
 export const Content = styled.div`
@@ -102,7 +108,7 @@ export const Content = styled.div`
     }
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 390px) {
     img {
       width: 20rem;
     }
@@ -290,7 +296,7 @@ export const Leading = styled.div`
     }
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 390px) {
     img {
       width: 20rem;
     }
@@ -370,7 +376,7 @@ export const Download = styled.div`
     }
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 390px) {
     & > img {
       width: 20rem;
     }
