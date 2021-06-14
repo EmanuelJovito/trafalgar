@@ -141,7 +141,7 @@ export default function Home() {
       </GridImages>
 
       <Button>View all</Button>
-
+            
       <Footer />
     </Conteiner>
   )
