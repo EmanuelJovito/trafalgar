@@ -1,3 +1,4 @@
+import { GoToTop } from "../GoToTop";
 import { Content } from "./style";
 
 export function Footer() {
@@ -35,6 +36,8 @@ export function Footer() {
           </div>
         </div>
       </div>
+      
+      <GoToTop />
     </Content>
   )
 }
