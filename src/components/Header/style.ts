@@ -36,4 +36,10 @@ export const Container = styled.header`
       }
     }
   }
+
+  @media (max-width: 614px) {
+    nav {
+      display: none;
+    }
+  }
 `
