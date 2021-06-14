@@ -149,13 +149,14 @@ export const SliderContainer = styled.div`
       margin-top: 1rem;
     }
   }
+  
 
-  @media (max-width: 375px) {
+  @media (max-width: 390px) {
     & > h1 {
       text-align: center;
       &:first-child{
         &::after {
-        left: 9.3rem;
+        left: 9.7rem;
       }
       }
     }
